@@ -8,10 +8,23 @@ jobs:
       - name: Checkout Source Code
         uses: actions/checkout@v4
 
+      - name: Find the project
+        run: |
+          echo "Files in the repo (smiley images left out):"
+          find . -path ./.git -prune -o -type f -print | grep -v '\.tif$' | grep -v '\.lproj/' | sort | head -80
+          SPEC=$(find . -path ./.git -prune -o -name project.yml -print | head -1)
+          if [ -z "$SPEC" ]; then
+            echo "::error::project.yml isn't in the repo. Upload it from the CarpetChair zip, next to the CarpetChair and Packages folders."
+            exit 1
+          fi
+          echo "PROJECT_DIR=$(dirname "$SPEC")" >> "$GITHUB_ENV"
+          echo "Using the project in: $(dirname "$SPEC")"
+
       - name: Show Xcode version
         run: xcodebuild -version
 
       - name: Test the Jabber engine (XMPPCore)
+        working-directory: ${{ env.PROJECT_DIR }}
         run: |
           if [ -d Packages/XMPPCore/Tests ]; then
             swift test --package-path Packages/XMPPCore
@@ -20,11 +33,13 @@ jobs:
           fi
 
       - name: Generate the Xcode project
+        working-directory: ${{ env.PROJECT_DIR }}
         run: |
           brew install xcodegen
           xcodegen generate
 
       - name: Build CarpetChair.app (unsigned)
+        working-directory: ${{ env.PROJECT_DIR }}
         run: |
           set -o pipefail
           xcodebuild -quiet \
@@ -35,6 +50,7 @@ jobs:
             build
 
       - name: Package the .ipa
+        working-directory: ${{ env.PROJECT_DIR }}
         run: |
           APP=build/Build/Products/Release-iphoneos/CarpetChair.app
           test -f "$APP/Info.plist" && test -f "$APP/SmileyTable.plist" && test -f "$APP/smile.tif"
@@ -47,4 +63,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: CarpetChair-ipa
-          path: CarpetChair.ipa
+          path: ${{ env.PROJECT_DIR }}/CarpetChair.ipa
