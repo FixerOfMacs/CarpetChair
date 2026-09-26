@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Smileys</key>
+	<array>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>:-)</string>
+				<string>:)</string>
+				<string>=-)</string>
+				<string>=)</string>
+			</array>
+			<key>Image Name</key>
+			<string>smile.tif</string>
+			<key>Description</key>
+			<string>Smiler</string>
+			<key>Speech Description</key>
+			<string>Smile Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>;-)</string>
+				<string>;)</string>
+			</array>
+			<key>Image Name</key>
+			<string>wink.tif</string>
+			<key>Description</key>
+			<string>Blunker</string>
+			<key>Speech Description</key>
+			<string>Wink Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>:-(</string>
+				<string>:(</string>
+				<string>=(</string>
+				<string>=-(</string>
+			</array>
+			<key>Image Name</key>
+			<string>frown.tif</string>
+			<key>Description</key>
+			<string>Sur</string>
+			<key>Speech Description</key>
+			<string>Frown Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>:-|</string>
+				<string>:|</string>
+			</array>
+			<key>Image Name</key>
+			<string>ambivalent.tif</string>
+			<key>Description</key>
+			<string>Likegyldig</string>
+			<key>Speech Description</key>
+			<string>Ambivalent Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>:-/</string>
+				<string>:/</string>
+				<string>:-\</string>
+				<string>:\</string>
+				<string>=\</string>
+				<string>=/</string>
+				<string>=-\</string>
+				<string>=-/</string>
+			</array>
+			<key>Image Name</key>
+			<string>slant.tif</string>
+			<key>Description</key>
+			<string>Usikker</string>
+			<key>Speech Description</key>
+			<string>Undecided Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>:-O</string>
+				<string>:O</string>
+				<string>:-o</string>
+				<string>:o</string>
+				<string>=-O</string>
+				<string>=O</string>
+				<string>=-o</string>
+				<string>=o</string>
+			</array>
+			<key>Image Name</key>
+			<string>gasp.tif</string>
+			<key>Description</key>
+			<string>Overrasket</string>
+			<key>Speech Description</key>
+			<string>Gasp Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>:-D</string>
+				<string>:D</string>
+				<string>=D</string>
+				<string>=-D</string>
+			</array>
+			<key>Image Name</key>
+			<string>laugh.tif</string>
+			<key>Description</key>
+			<string>Ler</string>
+			<key>Speech Description</key>
+			<string>Laugh Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>:-*</string>
+				<string>:*</string>
+				<string>=*</string>
+				<string>=-*</string>
+			</array>
+			<key>Image Name</key>
+			<string>kiss.tif</string>
+			<key>Description</key>
+			<string>Kyss</string>
+			<key>Speech Description</key>
+			<string>Kiss Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>:-P</string>
+				<string>:P</string>
+				<string>:-p</string>
+				<string>:p</string>
+				<string>:-b</string>
+				<string>:b</string>
+				<string>=p</string>
+				<string>=P</string>
+				<string>=b</string>
+				<string>=-b</string>
+				<string>=-p</string>
+				<string>=-P</string>
+			</array>
+			<key>Image Name</key>
+			<string>yuck.tif</string>
+			<key>Description</key>
+			<string>Rekker tunge</string>
+			<key>Speech Description</key>
+			<string>Sticking out tongue Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>:-d</string>
+				<string>:d</string>
+			</array>
+			<key>Image Name</key>
+			<string>yum.tif</string>
+			<key>Description</key>
+			<string>Nam!</string>
+			<key>Speech Description</key>
+			<string>Yum Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>^_^</string>
+				<string>^^</string>
+				<string>^-^</string>
+			</array>
+			<key>Image Name</key>
+			<string>grin.tif</string>
+			<key>Description</key>
+			<string>Gliser</string>
+			<key>Speech Description</key>
+			<string>Grin Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>:-&gt;</string>
+				<string>:&gt;</string>
+				<string>^o)</string>
+			</array>
+			<key>Image Name</key>
+			<string>sarcastic.tif</string>
+			<key>Description</key>
+			<string>Sarkastisk</string>
+			<key>Speech Description</key>
+			<string>Sarcastic Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>&gt;:-o</string>
+				<string>&gt;:o</string>
+				<string>&gt;:-O</string>
+				<string>&gt;:O</string>
+				<string>&gt;:-(</string>
+				<string>&gt;:(</string>
+			</array>
+			<key>Image Name</key>
+			<string>angry.tif</string>
+			<key>Description</key>
+			<string>Sint</string>
+			<key>Speech Description</key>
+			<string>Angry Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>:&apos;(</string>
+				<string>=&apos;(</string>
+				<string>:&apos;-(</string>
+				<string>=&apos;-(</string>
+			</array>
+			<key>Image Name</key>
+			<string>cry.tif</string>
+			<key>Description</key>
+			<string>Gråter</string>
+			<key>Speech Description</key>
+			<string>Cry Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>8-)</string>
+				<string>8)</string>
+				<string>B-)</string>
+				<string>B)</string>
+			</array>
+			<key>Image Name</key>
+			<string>cool.tif</string>
+			<key>Description</key>
+			<string>Kul</string>
+			<key>Speech Description</key>
+			<string>Cool Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>:-B</string>
+				<string>:B</string>
+				<string>8-B</string>
+				<string>8B</string>
+			</array>
+			<key>Image Name</key>
+			<string>nerd.tif</string>
+			<key>Description</key>
+			<string>Nerd</string>
+			<key>Speech Description</key>
+			<string>Nerd Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>O:-)</string>
+				<string>o:-)</string>
+				<string>O:)</string>
+				<string>o:)</string>
+			</array>
+			<key>Image Name</key>
+			<string>innocent.tif</string>
+			<key>Description</key>
+			<string>Uskyldig</string>
+			<key>Speech Description</key>
+			<string>Innocent Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>&gt;:-)</string>
+				<string>&gt;:)</string>
+				<string>&gt;:-&gt;</string>
+				<string>&gt;:&gt;</string>
+			</array>
+			<key>Image Name</key>
+			<string>naughty.tif</string>
+			<key>Description</key>
+			<string>Uskikkelig</string>
+			<key>Speech Description</key>
+			<string>Naughty Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>:-X</string>
+				<string>:X</string>
+				<string>=X</string>
+				<string>=-X</string>
+			</array>
+			<key>Image Name</key>
+			<string>sealed.tif</string>
+			<key>Description</key>
+			<string>Stum</string>
+			<key>Speech Description</key>
+			<string>Lips are sealed Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>:-!</string>
+				<string>:!</string>
+			</array>
+			<key>Image Name</key>
+			<string>footinmouth.tif</string>
+			<key>Description</key>
+			<string>Oops!</string>
+			<key>Speech Description</key>
+			<string>Foot in mouth Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>:-[</string>
+				<string>:[</string>
+				<string>=[</string>
+				<string>=-[</string>
+			</array>
+			<key>Image Name</key>
+			<string>embarrassed.tif</string>
+			<key>Description</key>
+			<string>Flau</string>
+			<key>Speech Description</key>
+			<string>Embarrassed Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>%-)</string>
+				<string>%)</string>
+			</array>
+			<key>Image Name</key>
+			<string>crazy.tif</string>
+			<key>Description</key>
+			<string>Sprø</string>
+			<key>Speech Description</key>
+			<string>Crazy Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>:-S</string>
+				<string>:S</string>
+				<string>:-s</string>
+				<string>:s</string>
+				<string>%-(</string>
+				<string>%(</string>
+				<string>X-(</string>
+				<string>X(</string>
+			</array>
+			<key>Image Name</key>
+			<string>confused.tif</string>
+			<key>Description</key>
+			<string>Forvirret</string>
+			<key>Speech Description</key>
+			<string>Confused Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>:-$</string>
+				<string>:$</string>
+				<string>=$</string>
+				<string>=-$</string>
+			</array>
+			<key>Image Name</key>
+			<string>moneymouth.tif</string>
+			<key>Description</key>
+			<string>Breikjefta</string>
+			<key>Speech Description</key>
+			<string>Money-mouth Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>:-&amp;</string>
+				<string>:&amp;</string>
+				<string>=&amp;</string>
+				<string>=-&amp;</string>
+				<string>:-@</string>
+				<string>:@</string>
+				<string>=@</string>
+				<string>=-@</string>
+			</array>
+			<key>Image Name</key>
+			<string>sick.tif</string>
+			<key>Description</key>
+			<string>Kvalm</string>
+			<key>Speech Description</key>
+			<string>Sick Smiley</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>&lt;3</string>
+			</array>
+			<key>Image Name</key>
+			<string>heart.tif</string>
+			<key>Description</key>
+			<string>Hjerte</string>
+			<key>Speech Description</key>
+			<string>Heart Emoticon</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>(Y)</string>
+				<string>(y)</string>
+			</array>
+			<key>Image Name</key>
+			<string>thumbsup.tif</string>
+			<key>Description</key>
+			<string>Positiv</string>
+			<key>Speech Description</key>
+			<string>Thumbs Up Emoticon</string>
+		</dict>
+		<dict>
+			<key>ASCII Representations</key>
+			<array>
+				<string>(N)</string>
+				<string>(n)</string>
+			</array>
+			<key>Image Name</key>
+			<string>thumbsdown.tif</string>
+			<key>Description</key>
+			<string>Negativ</string>
+			<key>Speech Description</key>
+			<string>Thumbs Down Emoticon</string>
+		</dict>
+	</array>
+</dict>
+</plist>
